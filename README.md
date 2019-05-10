@@ -1,6 +1,3 @@
-# Introduction
-*pipshow* is a script to show details of any pip package, irrespective of whether its installed or not.
-
 # Synopsis
 
 I came across the need today to show details about a random PyPi package which wasn't installed yet. So I simply did `pip show xyz` but it didn't return anything. `pip` has also removed the `--no-install` option for simulating an install thorough which I could have known these details too. So I wrote this little script to show the details of any package even if it isn't installed on your machine.
