@@ -15,4 +15,4 @@ pip3 install pipshow
 
 # Usage
 
-[!Usage](https://github.com/prahladyeri/pipshow/blob/master/screenshot.png?raw=true)
+![Usage](https://github.com/prahladyeri/pipshow/blob/master/screenshot.png?raw=true)
