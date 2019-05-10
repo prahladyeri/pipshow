@@ -13,7 +13,7 @@ def fileexists(filepath):
 			print(e)
 
 def main():
-	parser = argparse.ArgumentParser(description="Show info about a PIP package")
+	parser = argparse.ArgumentParser(description="Pypi package name to get the info.")
 	#parser.add_argument("input", type=fileexists, help='Input File Location EX: /Desktop/Somewhere/input.txt')
 	parser.add_argument("input", help='Name of the package EX: Foo')
 	args = parser.parse_args()
