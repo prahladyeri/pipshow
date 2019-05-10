@@ -15,8 +15,4 @@ pip3 install pipshow
 
 # Usage
 
-```
-fixnames ./
-Renamed: ./test[.txt to ./test.txt
-Done
-```
+[!Usage](https://github.com/prahladyeri/pipshow/blob/master/screenshot.png?raw=true)
