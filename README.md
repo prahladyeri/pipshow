@@ -7,9 +7,9 @@ I came across the need today to show details about a random PyPi package which w
 pip install pipshow
 ```
 
-# Uninstallation
-```pip uninstall pipshow```
-
 # Usage
 
 ![Usage](https://github.com/prahladyeri/pipshow/blob/master/screenshot.png?raw=true)
+
+# Uninstallation
+```pip uninstall pipshow```
