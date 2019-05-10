@@ -7,11 +7,11 @@ I came across the need today to show details about a random PyPi package which w
 
 # Installation
 ```
-pip3 install pipshow
+pip install pipshow
 ```
 
 # Uninstallation
-```pip3 uninstall pipshow```
+```pip uninstall pipshow```
 
 # Usage
 
