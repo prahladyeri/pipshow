@@ -2,16 +2,6 @@ import requests
 import json
 import argparse
 
-def fileexists(filepath):
-	try:
-		if os.path.isfile(filepath):
-			return filepath
-		else:
-			print("There is no file at:" + filepath)
-			exit()
-	except e as Exception:
-			print(e)
-
 def main():
 	parser = argparse.ArgumentParser(description="Pypi package name to get the info.")
 	#parser.add_argument("input", type=fileexists, help='Input File Location EX: /Desktop/Somewhere/input.txt')
