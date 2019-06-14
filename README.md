@@ -17,13 +17,22 @@ A script to show details of any python package, irrespective of whether its inst
 I came across the need today to show details about a random PyPi package which wasn't installed on my machine yet. So I simply did `pip show <package_name>` but it didn't return anything. `pip` has also removed the `--no-install` option for simulating an install through which I could have known these details too. So I wrote this little script to show the details of any package even if it isn't installed on your machine.
 
 # Installation
-```
+
+```bash
 pip install pipshow
 ```
 
 # Usage
 
-![Usage](https://github.com/prahladyeri/pipshow/blob/master/screenshot.png?raw=true)
-
-# Uninstallation
-```pip uninstall pipshow```
+```bash
+> pipshow pipshow
+Name: pipshow
+Version: 0.5
+Summary: A script to show details of any python package, irrespective of whether its installed or not.
+Home-page: https://github.com/prahladyeri/pipshow
+Package URL: https://pypi.org/project/pipshow/
+Author: Prahlad Yeri
+Author-email: prahladyeri@yahoo.com
+License: MIT
+Requires: None
+```
