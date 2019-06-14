@@ -24,5 +24,10 @@ setup(
 	install_requires=['requests'],
 	author=__author__,
 	author_email=__email__,
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
 	
 )
