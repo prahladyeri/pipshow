@@ -1,14 +1,15 @@
 import os
 from setuptools import setup, find_packages
+from pipshow import __version__, __description__, __author__, __email__, __license__
 
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
 	name="pipshow",
-	version="0.5",
-	license="MIT",
-	description="A script to show details of any python package, irrespective of whether its installed or not.",
+	version=__version__,
+	license=__license__,
+	description=__description__,
 	long_description=read("README.md"),
 	long_description_content_type='text/markdown',
 	keywords="pip,setup,installer",
@@ -21,10 +22,7 @@ setup(
 		],
 	},
 	install_requires=['requests'],
-	# package_data = {
-		# 'pipshow': ['./'],
-	# },
-	author="Prahlad Yeri",
-	author_email="prahladyeri@yahoo.com",
+	author=__author__,
+	author_email=__email__,
 	
 )
