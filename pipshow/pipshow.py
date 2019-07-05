@@ -38,7 +38,7 @@ def main(args):
 		print("Author: %s" % (obj['info']['author']))
 		print("Author-email: %s" % (obj['info']['author_email']))
 		print("License: %s" % (obj['info']['license']))
-		print("Requires: %s" % (obj['info']['requires_dist']))
+		#print("Requires: %s" % (obj['info']['requires_dist']))
 		if args.stats:
 			parts = urllib.parse.urlparse(obj['info']['home_page'])
 			if parts.netloc == 'github.com':
