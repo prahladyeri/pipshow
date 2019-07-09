@@ -20,15 +20,4 @@ pip install pipshow
 
 # Usage
 
-```bash
-> pipshow pipshow
-Name: pipshow
-Version: 0.5
-Summary: A script to show details of any python package, irrespective of whether its installed or not.
-Home-page: https://github.com/prahladyeri/pipshow
-Package URL: https://pypi.org/project/pipshow/
-Author: Prahlad Yeri
-Author-email: prahladyeri@yahoo.com
-License: MIT
-Requires: None
-```
+![pipshow screenshot](https://raw.githubusercontent.com/prahladyeri/pipshow/master/screenshot.png)
