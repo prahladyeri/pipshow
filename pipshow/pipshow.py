@@ -19,7 +19,8 @@ def show_extra_stats(repo):
 			print("open_issues: %d" % item['open_issues'])	
 			print("last_commit: %s" % item['updated_at'])
 
-def main(args):
+def main():
+	args = sys.argv[1:]
 	parser = argparse.ArgumentParser()
 	#parser.add_argument("input", type=fileexists, help='Input File Location EX: /Desktop/Somewhere/input.txt')
 	parser.add_argument("input", help='Name of the package EX: Foo')
@@ -50,4 +51,4 @@ def main(args):
 		print("Error Text: ", str(ex))
 
 if __name__ == "__main__":
-	main(sys.argv[1:])
+	main()
