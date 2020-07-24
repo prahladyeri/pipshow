@@ -21,3 +21,14 @@ pip install pipshow
 # Usage
 
 ![pipshow screenshot](https://raw.githubusercontent.com/prahladyeri/pipshow/master/screenshot.png)
+
+## License
+
+`pipshow` is free and open source software. It is [MIT](https://opensource.org/licenses/MIT) licensed.
+
+## Donation
+
+Please consider donating if this tool has helped you in any way. You can also [hire me on fiverr](https://www.fiverr.com/prahladyeri) to get professional support and customization.
+
+- [Donate through PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JM8FUXNFUK6EU)
+- [Donate through Patreon](https://www.patreon.com/prahladyeri)
